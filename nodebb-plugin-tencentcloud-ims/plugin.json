@@ -1,0 +1,24 @@
+{
+  "id": "nodebb-plugin-tencentcloud-ims",
+  "url": "https://github.com/Tencent-Cloud-Plugins/tencentcloud-plugin-nodebb-ims",
+  "hooks": [
+    {
+      "hook": "static:app.load",
+      "method": "init"
+    },
+    {
+      "hook": "filter:admin.header.build",
+      "method": "addAdminNavigation"
+    },
+    { "hook": "filter:topic.create", "method": "topicCreateOrEdit" },
+    { "hook": "filter:topic.edit", "method": "topicCreateOrEdit" },
+    { "hook": "filter:post.create", "method": "postCreateOrEdit" },
+    { "hook": "filter:post.edit", "method": "postCreateOrEdit" }
+  ],
+  "staticDirs": {
+    "static": "./static"
+  },
+  "less": ["static/style.less"],
+  "scripts": ["static/lib/main.js"],
+  "templates": "static/templates"
+}

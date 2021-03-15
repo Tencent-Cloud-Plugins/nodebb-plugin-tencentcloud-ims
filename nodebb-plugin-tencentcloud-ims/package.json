@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-tencentcloud-ims",
+  "version": "1.0.0",
+  "description": "腾讯云图片内容安全（IMS）插件",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tencent-Cloud-Plugins/tencentcloud-plugin-nodebb-ims"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "tencentcloud",
+    "ims"
+  ],
+  "author": {
+    "name": "jackjundeng",
+    "email": "jackjundeng@tencent.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tencent-Cloud-Plugins/tencentcloud-plugin-nodebb-ims/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.16.2"
+  },
+  "dependencies": {
+    "axios": ">=0.21.1",
+    "mime": "^2.4.4"
+  }
+}
