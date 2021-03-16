@@ -10,7 +10,7 @@
 | ----     | ---------------- |
 | 中文名称   | 腾讯云图片内容安全（IMS）插件 |
 | 英文名称   | nodebb-plugin-tencentcloud-ims |
-| 最新版本   | v1.0.0 (2021.03.16) |
+| 最新版本   | v1.0.1 (2021.03.16) |
 | 适用平台   | [NodeBB](https://nodebb.org) |
 | 适用产品   | [腾讯云图片内容安全（IMS）](https://cloud.tencent.com/product/ims) |
 | GitHub项目| [tencentcloud-nodebb-plugin-ims](https://github.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-ims) |
